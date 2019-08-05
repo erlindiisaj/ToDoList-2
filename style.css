@@ -1,0 +1,96 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+body {
+   background: #f77f8b;
+}
+
+.container{
+   position: relative;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.text-div{
+   position: absolute;
+   top: 30px;
+}
+
+.text-div > h1 {
+   margin: 10px 0 30px 0;
+   font-size: 40px;
+   color: #355c72; 
+}
+
+.text-div > p {
+   margin: 10px;  
+   font-family: 'Crimson Pro', serif;
+   font-size: 23px;
+   color: #3a5d72;  
+}
+
+.input-div > input {
+   width: 800px;
+   height: 50px;  
+   border: 3px solid #3a5d72; 
+   border-radius: 30px;
+   padding: 15px;
+   font-size: 15px;
+   background: #f8b195;
+}
+.input-div >  button {
+   height: 50px;
+   width: 60px;
+   border: 3px solid #3a5d72; 
+   border-radius: 10px;
+   background: #f79e7b;
+   transition: ease 0.3s;
+}
+
+.input-div> button:hover {
+   background: #f58558;
+   
+}
+
+.list-div  {
+   position: absolute;
+   top: 60%;
+}
+
+.list-div li {
+   background: #f8b195;
+   height: 40px;
+   list-style-type: none;
+   border: 2px solid  #3a5d72; 
+   width: 600px;
+   border-radius: 20px;
+   padding: 5px;
+   margin: 10px;
+   cursor: pointer;
+}
+.list-div button {
+   cursor: pointer;
+   position: absolute;
+   right: 20px;
+   width: 20px;
+   background: transparent;
+   border: none;
+   padding: 4px;
+}
+
+.list-div button:hover {
+   color: red;
+}
+
+.done {
+   background: rgb(149, 255, 145)  !important;
+   text-decoration-line: line-through;
+}
